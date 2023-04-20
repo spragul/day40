@@ -69,7 +69,7 @@ const data = [
 //new requset
 app.get('/', (req, res) => {
    // res.send("hai display the data success")
-   res.send("Hall Booking App \n 1.ceateing Room link: http://localhost:9000/hall/create \n 2.Booking hall link : http://localhost:9000/hall/book \n 3.list all Rooms with booked data link: http://localhost:9000/hall/rooms \n 4.list all customers with booked data link :http://localhost:9000/hall/customer \n 5.how many times a customer has booked link: http://localhost:9000/hall/customer/times?customername=Ragul \n edit hall booking link: http://localhost:9000/hall/details/");
+   res.send("Hall Booking App ");
 })
 
 //1.createing a room
